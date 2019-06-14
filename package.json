@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/owencjones/cucumber-tech-test/issues"
   },
-  "homepage": "https://github.com/owencjones/cucumber-tech-test#readme"
+  "homepage": "https://github.com/owencjones/cucumber-tech-test#readme",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
 }
