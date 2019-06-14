@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/owencjones/cucumber-tech-test#readme",
   "devDependencies": {
-    "cucumber": "^5.1.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0"
   }
 }
