@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-tech-test",
+  "version": "0.0.1",
+  "description": "A technical test demonstration of cucumber.js testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owencjones/cucumber-tech-test.git"
+  },
+  "keywords": [
+    "tech-test",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Owen C Jones <owencjones@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owencjones/cucumber-tech-test/issues"
+  },
+  "homepage": "https://github.com/owencjones/cucumber-tech-test#readme"
+}
