@@ -9,4 +9,4 @@ Because of the requirement to parse real language, the setup of cucumber.js need
 For this tech test, I've written feature files, and the step definitions needed for them, but instead of linking it to a real headless browser, I've created mock functions similar to those used by Selenium, Cypress, or Puppeteer.  I didn't have the actual example application to use, so this seemed like a decent approach.
 
 ## Commentary
-See the (commentary.md)[commentary.md] for the commentary requested in the test on example BDD code provided.
+See the [`commentary.md`](commentary.md) for the commentary requested in the test on example BDD code provided.
