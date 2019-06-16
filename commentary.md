@@ -49,7 +49,7 @@ Similar to `And`, `But` is also not a function in Cucumber.js, and it is also im
 
 The only Step definitions in Cucumber.js are `Given`, `When`, and `Then`. _I'm not sure why And and But are not valid in cucumber.js, to be quite honest, as they are valid in Cucumber syntax._
 
-(Cucumber.js Step definition syntax)[https://github.com/cucumber/cucumber-js/blob/master/docs/support_files/step_definitions.md]
+[Cucumber.js Step definition syntax](https://github.com/cucumber/cucumber-js/blob/master/docs/support_files/step_definitions.md)
 
 Many of the functions being called are using XPath identifiers to find the elements needed.  Whilst this can be useful in some cases, they're also longwinded, and could be replaced in some cases with CSS-style selectors, such as those used in `document.getQuerySelector` functions.
 
