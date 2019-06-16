@@ -43,11 +43,13 @@ And(/^they will see a Pass option$/,
 
 Initially, what I have to say about this is that the step definitions _all_ use `Regex`, but none of them would match anything but the exact expressed string, so they are not regular expressions.  It's a small overhead, but passing strings would be moderately more performant to parse, and somewhat easier to write.
 
-The next point to make is that, whilst `And` is valid in many similar systems, in Cucumber.js, it's not a valid step definition. so `import { And } from 'cucumber'}` would return `And` as `undefined`.  Generally, you would just use `When`.
+The next point to make is that, whilst `And` is valid in Cucumber syntax overall, and works in the Java version; in Cucumber.js, it's not a valid step definition. so `import { And } from 'cucumber'}` would return `And` as `undefined`.
 
-Similar to `And`, `But` is also not a function in cucumber.js, and it is also imported but not used in the code given.
+Similar to `And`, `But` is also not a function in Cucumber.js, and it is also imported but not used in the code given.
 
-The only Step definitions in Cucumber are `Given`, `When`, and `Then`.
+The only Step definitions in Cucumber.js are `Given`, `When`, and `Then`.
+
+_I'm not sure why And and But are not valid in cucumber.js, to be quite honest_
 
 (Cucumber.js Step definition syntax)[https://github.com/cucumber/cucumber-js/blob/master/docs/support_files/step_definitions.md]
 
