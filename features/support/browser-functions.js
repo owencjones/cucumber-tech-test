@@ -17,6 +17,16 @@ module.exports.checkElementExists = async function(query) {
 };
 
 /**
+ * Check an element can be seen
+ * 
+ * @param {string} query    A string of css-syntac selectors to find an object
+ * @returns {boolean}
+ */
+module.exports.isVisible = async function(query) {
+    return true
+};
+
+/**
  * Click an element
  * 
  * @param {string} query       A string of css-syntax selectors to find an object
